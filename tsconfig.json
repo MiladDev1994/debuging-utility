@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "lib": [
+      "dom",
+      "esnext",
+      "dom.iterable",
+    ],
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": [
+      "node",
+      // "cypress",
+      "webpack-env",
+    ],
+  },
+  "include": [
+    "src",
+    "*.d.ts",
+    // "cypress",
+    // "./cypress.d.ts"
+  ]
+}

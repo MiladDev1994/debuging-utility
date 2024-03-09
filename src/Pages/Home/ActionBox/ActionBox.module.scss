@@ -1,0 +1,89 @@
+
+@use "../../Components/Styles/pallet.scss";
+
+.submitContainer{
+    flex: none;
+    width: 100%;
+    border-top: 2px solid pallet.$colorLightGray;
+    background-color: pallet.$colorWhite;
+    background-color: pallet.$colorHeaderGray;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    position: relative;
+    .submitBox {
+        overflow: hidden;
+        inset: 0;
+        margin: auto;
+        max-width: 120rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        position: relative;
+        position: absolute;
+        .previousBtnContainer{
+            transition: 0.3s;
+            box-shadow: 0 10px 30px #86a5de;
+            > section {
+                font-size: 1.2rem;
+                flex: unset;
+            }
+            > div {
+                &::after {
+                    transition: 0.3s;
+                }
+            }
+        }
+        .deletesBtnContainer{
+            transition: 0.3s;
+            box-shadow: 0 10px 30px #d17979;
+            > section {
+                font-size: 1.2rem;
+                flex: unset;
+            }
+            > div {
+                &::after {
+                    transition: 0.3s;
+                }
+            }
+        }
+        .nextBtnContainer{
+            transition: 0.3s;
+            box-shadow: 0 10px 30px #86a5de;
+            > section {
+                font-size: 1.2rem;
+                flex: unset;
+            }
+            > div {
+                &::after {
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    
+    .showSearchBtnBox {
+        left: 50%;
+        transform: translate(-50%, 0);
+        max-width: 120rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        position: relative;
+        position: absolute;
+        z-index: 3;
+        .showSearchBtn{
+            position: fixed;
+            right: 2%;
+            top: -70px;
+            box-shadow: 0 10px 20px #f68554aa;
+        }
+
+    }
+}

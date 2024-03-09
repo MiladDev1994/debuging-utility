@@ -1,0 +1,35 @@
+.pageBarContainer {
+    flex: none;
+    display: flex;
+    padding: 5px 10px;
+    width: 100%;
+    .pageBar {
+        width: 120rem;
+        @media screen and (max-width: 120rem) {
+            width: 100%;
+        }
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        border: 2px solid lightgray;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        .pageBtn {
+            width: 170px;
+            padding: 0 5px;
+            height: 35px;
+            border-radius: 5px;
+            > section {
+                font-size: 1.1rem;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

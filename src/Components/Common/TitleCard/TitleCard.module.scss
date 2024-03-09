@@ -1,0 +1,20 @@
+@use "../../../Components/Styles/global.scss";
+@use "../../../Components/Styles/pallet.scss";
+
+
+.container {
+  @include global.CardContainers();
+  height: 4em;
+  @include global.FlexRow();
+  justify-content: space-between;
+  padding: 0em 1em;
+  
+  .backTitleContainer {
+    @include global.FlexRow();
+    margin: 1em;
+    cursor: pointer;
+    .icon {
+      margin-left: 1em;
+    }
+  }
+}

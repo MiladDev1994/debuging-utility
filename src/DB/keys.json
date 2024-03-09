@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "value": "IdIndex",
+        "act": false
+    },
+    {
+        "id": 2,
+        "value": "IdIndex_InOtherCamera",
+        "act": true
+    },
+    {
+        "id": 3,
+        "value": "asdasd",
+        "act": true
+    },
+    {
+        "id": 4,
+        "value": "sdasdas",
+        "act": true
+    }
+]

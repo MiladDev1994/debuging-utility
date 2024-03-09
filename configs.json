@@ -1,0 +1,257 @@
+[
+    {
+        "id": 1,
+        "value": "imageId",
+        "act": false
+    },
+    {
+        "id": 2,
+        "value": "epochTime",
+        "act": false
+    },
+    {
+        "id": 3,
+        "value": "rawEpochTime",
+        "act": false
+    },
+    {
+        "id": 4,
+        "value": "isBadEpochTime",
+        "act": false
+    },
+    {
+        "id": 5,
+        "value": "uniqueId",
+        "act": false
+    },
+    {
+        "id": 6,
+        "value": "objectDetectionAlgorithm",
+        "act": false
+    },
+    {
+        "id": 7,
+        "value": "offlineName",
+        "act": false
+    },
+    {
+        "id": 8,
+        "value": "scaledEpochTime",
+        "act": false
+    },
+    {
+        "id": 9,
+        "value": "SingleMultiObjectStatusEnum",
+        "act": false
+    },
+    {
+        "id": 10,
+        "value": "isColorImageNeeded",
+        "act": false
+    },
+    {
+        "id": 11,
+        "value": "isSingleElement",
+        "act": false
+    },
+    {
+        "id": 12,
+        "value": "regionOfObject_InGrabImage",
+        "act": false
+    },
+    {
+        "id": 13,
+        "value": "extended_regionOfObject_InGrabImage",
+        "act": false
+    },
+    {
+        "id": 14,
+        "value": "pixelLoc",
+        "act": false
+    },
+    {
+        "id": 15,
+        "value": "degree",
+        "act": false
+    },
+    {
+        "id": 16,
+        "value": "realLoc",
+        "act": false
+    },
+    {
+        "id": 17,
+        "value": "finalGeometricParams_raw",
+        "act": false
+    },
+    {
+        "id": 18,
+        "value": "accurate_geometricParams_InColorImage_length",
+        "act": false
+    },
+    {
+        "id": 19,
+        "value": "accurate_geometricParams_InColorImage_diameter",
+        "act": false
+    },
+    {
+        "id": 20,
+        "value": "area_pixel_real",
+        "act": false
+    },
+    {
+        "id": 21,
+        "value": "model_calcStatus",
+        "act": false
+    },
+    {
+        "id": 22,
+        "value": "CLL_Ashghal",
+        "act": false
+    },
+    {
+        "id": 23,
+        "value": "CLL_Ghermez",
+        "act": false
+    },
+    {
+        "id": 24,
+        "value": "CLL_Kapak_Zadeh",
+        "act": false
+    },
+    {
+        "id": 25,
+        "value": "CLL_Lape",
+        "act": false
+    },
+    {
+        "id": 26,
+        "value": "CLL_Siah",
+        "act": false
+    },
+    {
+        "id": 27,
+        "value": "CLL_Sorakhdar",
+        "act": false
+    },
+    {
+        "id": 28,
+        "value": "ModelsName",
+        "act": false
+    },
+    {
+        "id": 29,
+        "value": "IdIndex",
+        "act": false
+    },
+    {
+        "id": 30,
+        "value": "IdIndex_InOtherCamera",
+        "act": false
+    },
+    {
+        "id": 31,
+        "value": "first_epochTime",
+        "act": false
+    },
+    {
+        "id": 32,
+        "value": "last_epochTime",
+        "act": false
+    },
+    {
+        "id": 33,
+        "value": "runStatusTime",
+        "act": false
+    },
+    {
+        "id": 34,
+        "value": "frontActuator_EpochTime",
+        "act": false
+    },
+    {
+        "id": 35,
+        "value": "frontActuator_X_MiliMeter",
+        "act": false
+    },
+    {
+        "id": 36,
+        "value": "actuatorActId",
+        "act": false
+    },
+    {
+        "id": 37,
+        "value": "nextStatePredictedLoc",
+        "act": false
+    },
+    {
+        "id": 38,
+        "value": "line_TX",
+        "act": false
+    },
+    {
+        "id": 39,
+        "value": "line_TY",
+        "act": false
+    },
+    {
+        "id": 40,
+        "value": "lastXY",
+        "act": false
+    },
+    {
+        "id": 41,
+        "value": "realXY",
+        "act": false
+    },
+    {
+        "id": 42,
+        "value": "lineSlop_XY",
+        "act": false
+    },
+    {
+        "id": 43,
+        "value": "finalGeometricParams_raw",
+        "act": false
+    },
+    {
+        "id": 44,
+        "value": "finalGeometricParams_realValue",
+        "act": false
+    },
+    {
+        "id": 45,
+        "value": "finalGeometricParams_General_realValue",
+        "act": false
+    },
+    {
+        "id": 46,
+        "value": "isGeometricParamsGood",
+        "act": false
+    },
+    {
+        "id": 47,
+        "value": "isTensorFlowUsingResultGood",
+        "act": false
+    },
+    {
+        "id": 48,
+        "value": "isHardReject",
+        "act": false
+    },
+    {
+        "id": 49,
+        "value": "isObjectReject",
+        "act": false
+    },
+    {
+        "id": 50,
+        "value": "rejectReason",
+        "act": false
+    },
+    {
+        "id": 51,
+        "value": "ModelsName",
+        "act": false
+    }
+]

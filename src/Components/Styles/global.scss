@@ -1,0 +1,98 @@
+@use './pallet.scss';
+@use './colors.scss';
+
+@mixin defWidth {
+    width: 95%;
+}
+
+@mixin CardContainers {
+    @include defWidth();
+    margin-bottom: 1em;
+    background: white;
+    border-radius: pallet.$border-radius-small;
+    box-shadow: pallet.$box-shadow;
+}
+
+@mixin shadow {
+    box-shadow: pallet.$box-shadow;
+}
+
+@mixin FlexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin FlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin fullWidthTitle {
+    width: 100%;
+    box-shadow: none;
+    background: white;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+@mixin titlePreSet {
+    @include fullWidthTitle();
+    padding: 0 1em;
+    border-bottom: pallet.$borderAttrs;
+}
+
+@mixin tableRow {
+    &:hover {
+        background-color: pallet.$colorLightBlue;
+    }
+}
+
+@mixin stickyTableHeader {
+    position: sticky;
+    z-index: 1;
+    background-color: pallet.$colorDarkGrey;
+    &:hover {
+        background-color: pallet.$colorDarkGrey !important;
+    }
+}
+
+@mixin bgChange($color:colors.$color-white) {
+    background-color: $color;
+}
+
+@mixin colorChange($color:colors.$color-white) {
+    color: $color;
+}
+
+@mixin fontSizeChange($font-size:25px){
+    font-size: $font-size;
+}
+
+.titleCardGeneral{
+    height: 5rem;
+}
+
+.bodyCardGeneral{
+    height: 40rem;
+}
+
+.pageContainer {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: pallet.$colorLightestBlue;
+}
+
+.rowField { // add to "containerClassName"
+    flex-direction: row;
+    align-items: center;
+    // add "align-self: center;" to your component style if you need
+}
+
